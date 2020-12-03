@@ -1,6 +1,6 @@
 console.log(document.documentElement.innerText
 	.split("\n")
-  .filter(line => line != "")
+	.filter(line => line != "")
 	.map(line => {
 		const [, min, max, letter, word] = line.match(/^([0-9]+)-([0-9]+)\s(\D):\s(\D*)/) || []
 		return {min, max, letter, word}
