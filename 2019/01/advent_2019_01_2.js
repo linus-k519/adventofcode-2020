@@ -1,11 +1,11 @@
 fuel = weight => {
-	if (weight <= 0) {
+    if (weight <= 0) {
         return 0;
     }
-	else {
+    else {
     	new_weight = parseInt(weight / 3) - 2
     	return new_weight + fuel(new_weight)
-	}
+    }
 }
 
 document.documentElement.innerText
