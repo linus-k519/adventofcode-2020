@@ -32,7 +32,7 @@ function update_mem(memMatch) {
 // Parse document
 document.documentElement.innerText.split('\n')
 .forEach(line => {
-  maskMatch = line.match(/mask = ([X01]*)/)
+  maskMatch = line.match(/mask = ([X01]+)/)
   memMatch = line.match(/mem\[(\d+)\] = (\d+)/)
   if (maskMatch) update_mask(maskMatch)
   else if (memMatch) update_mem(memMatch)
