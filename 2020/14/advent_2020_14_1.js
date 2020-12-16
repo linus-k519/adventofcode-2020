@@ -1,17 +1,17 @@
 class Mask {
   constructor(mask) {
     // Extract positive mask with all forced ones
-    this.pos = BigInt('0b' + mask.replaceAll("X", "0"))
+    this.pos = BigInt('0b' + mask.replaceAll('X', '0'))
     // ... and negative mask with all forced zeros
-    this.neg = BigInt('0b' + mask.replaceAll("X", "1"))
+    this.neg = BigInt('0b' + mask.replaceAll('X', '1'))
   }
 
-  apply(value) {
+  apply(val) {
     // Apply positve mask (forced ones)
     // and negative mask (forced zeros) to value
-    value |= this.pos
-    value &= this.neg
-    return value
+    val |= this.pos
+    val &= this.neg
+    return val
   }
 }
 
@@ -30,7 +30,7 @@ function update_mem(memMatch) {
 }
 
 // Parse document
-document.documentElement.innerText.split("\n")
+document.documentElement.innerText.split('\n')
 .forEach(line => {
   maskMatch = line.match(/mask = ([X01]*)/)
   memMatch = line.match(/mem\[(\d+)\] = (\d+)/)
@@ -40,4 +40,4 @@ document.documentElement.innerText.split("\n")
 
 // Calculating sum
 sum = Object.values(mem).reduce((acc, cur) => acc + cur)
-console.log(`Sum ${sum}`)
+console.log('Sum', sum.toString())
