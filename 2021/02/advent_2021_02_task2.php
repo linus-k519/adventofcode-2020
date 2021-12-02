@@ -1,10 +1,11 @@
 
 <?php
 // Read input file
-$lines = file("/usr/src/app/input.txt");
+$lines = file("input.txt");
 
 $depth = 0;
 $horizontal = 0;
+$aim = 0;
 foreach ($lines as $line) {
   // Remove \n from line
   $line = rtrim($line);
@@ -13,12 +14,13 @@ foreach ($lines as $line) {
   switch ($line[0]) {
     case "forward":
       $horizontal += $line[1];
+      $depth += $aim * $line[1];
       break;
     case "down":
-      $depth += $line[1];
+      $aim += $line[1];
       break;
     case "up":
-      $depth -= $line[1];
+      $aim -= $line[1];
       break;
   }
 }
