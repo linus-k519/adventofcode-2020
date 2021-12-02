@@ -6,7 +6,7 @@ $lines = file("/usr/src/app/input.txt");
 $depth = 0;
 $horizontal = 0;
 foreach ($lines as $line) {
-  // Remove \nb from line
+  // Remove \n from line
   $line = rtrim($line);
   // Split line on whitespace
   $line = explode(' ', $line);
