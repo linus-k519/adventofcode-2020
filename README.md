@@ -1,6 +1,11 @@
 # adventofcode-2020
 
-Solutions for [Advent of Code](https://adventofcode.com) in 
-JavaScript.
+Solutions for [Advent of Code](https://adventofcode.com).
 
-Just copy and paste the code into the debugger console in your browser on the puzzle input website.
+## [Year 2020](2020/)
+
+Solutions in JavaScript. Just copy the code into the debugger console in the browser on the input website.
+
+## [Year 2021](2021/)
+
+Every day a different programming language.
