@@ -1,7 +1,7 @@
 
 <?php
 // Read input file
-$lines = file("input.txt");
+$lines = file("/usr/src/app/input.txt");
 
 $depth = 0;
 $horizontal = 0;
