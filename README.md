@@ -1,4 +1,4 @@
-# adventofcode-2020
+# adventofcode
 
 Solutions for [Advent of Code](https://adventofcode.com).
 
