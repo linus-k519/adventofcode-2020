@@ -38,7 +38,7 @@ void read_input(uint64_t* const fishes_by_day) {
 }
 
 void simulate_day(uint64_t* const fishes_by_day) {
-    // Save fishes that get rested to 6
+    // Save fishes that get reset to 6 days
     uint64_t fishesWithZeroDays = fishes_by_day[0];
 
     // Move all fishe groups one to the front, i.e. decrement their days
