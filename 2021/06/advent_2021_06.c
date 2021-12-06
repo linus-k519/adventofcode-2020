@@ -33,6 +33,8 @@ void read_input(uint64_t* const fishes_by_day) {
             break;
         }
     }
+    
+    fclose(input);
 }
 
 void simulate_day(uint64_t* const fishes_by_day) {
