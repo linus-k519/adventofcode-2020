@@ -9,6 +9,7 @@ I'm trying to use a different programming language every day this year.
 - [Day 3](03/) in Python
 - [Day 4](04/) in Kotlin
 - [Day 5](05/) in TypeScript via Deno
+- [Day 6](06/) in C
 
 <hr>
 
@@ -21,7 +22,7 @@ Programming languages that will be used:
 - [x] JavaScript
 - [x] TypeScript
 - [ ] AssemblyScript (WebAssembly)
-- [ ] C
+- [x] C
 - [ ] C++
 - [ ] Rust
 - [ ] Dart
