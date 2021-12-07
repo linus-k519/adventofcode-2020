@@ -9,3 +9,5 @@ Solutions in JavaScript. Just copy the code into the debugger console in the bro
 ## [Year 2021](2021/)
 
 Every day a different programming language.
+
+Note: `input.txt` is required to be in current folder when executing the programs.
