@@ -1,13 +1,8 @@
 # Advent of Code
 
-Solutions for [Advent of Code](https://adventofcode.com).
+Solutions for [Advent of Code](https://adventofcode.com) of different years:
 
-## [Year 2020](2020/)
-
-Solutions in JavaScript. Just copy the code into the debugger console in the browser on the input website.
-
-## [Year 2021](2021/)
-
-Every day a different programming language.
-
-Note: `input.txt` is required to be in current folder when executing the programs.
+- [2019](2019/)
+- [2020](2020/)
+- [2021](2021/)
+- [2024](2024/)
