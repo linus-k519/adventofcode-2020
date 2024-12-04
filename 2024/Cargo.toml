@@ -3,3 +3,6 @@ name = "aoc2024"
 version = "0.1.0"
 edition = "2021"
 authors = ["linuskmr <linuskmr.dev@gmailcom>"]
+
+[dependencies]
+regex = "1.11.1"
