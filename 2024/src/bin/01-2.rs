@@ -1,4 +1,4 @@
-use std::{collections::HashMap, io::{stdin, Read}, iter};
+use std::{collections::HashMap, io::{stdin, Read}};
 
 fn main() {
 	let mut data = String::new();

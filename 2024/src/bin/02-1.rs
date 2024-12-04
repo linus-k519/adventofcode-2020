@@ -1,4 +1,4 @@
-use std::{backtrace, io::{stdin, Read}};
+use std::io::{stdin, Read};
 
 fn main() {
 	let mut data = String::new();
